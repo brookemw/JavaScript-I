@@ -18,24 +18,73 @@ const example = {
 }
 
 // Write your intern objects here:
+// 1,mmelloy0@psu.edu,Mitzi,F
+
+const MitziMelloy = {
+  "id": 1,
+  "name": "Mitzi Melloy",
+  "email": "mmelloy0@psu.edu",
+  "gender": "F"
+}
+
+// 2,kdiben1@tinypic.com,Kennan,M
+
+const KennanDiben = {
+  "id": 2,
+  "name": "Kennan Diben",
+  "email": "kdiben1@tinypic.com",
+  "gender": "M"
+}
+
+// 3,kmummery2@wikimedia.org,Keven,M
+
+const KevenMummery = {
+  "id": 3,
+  "name": "Keven Mummery",
+  "email": "kmummery2@wikimedia.org",
+  "gender": "M"
+}
+
+// 4,gmartinson3@illinois.edu,Gannie,M
+
+const GannieMartinson = {
+  "id": 4,
+  "name": "Gannie Martinson",
+  "email": "gmartinson3@illinois.edu",
+  "gender": "M"
+}
+
+// 5,adaine5@samsung.com,Antonietta,F
+
+const AntoniettaAdaine = {
+  "id": 5,
+  "name": "Antonietta Adaine",
+  "email": "adaine5@samsung.com",
+  "gender": "F"
+}
 
 
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
+console.log(MitziMelloy.name);
 
 // Kennan's ID
+console.log(KennanDiben.id);
 
 // Keven's email
+console.log(KevenMummery.email);
 
 // Gannie's name
+console.log(GannieMartinson.name);
 
 // Antonietta's Gender
+console.log(AntoniettaAdaine.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
-// console.log(kennan.speak());
+console.log("Hello, my name is " + KennanDiben.name);
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
